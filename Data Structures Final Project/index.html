@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Golden State Warriors</title>
+	<link rel="icon" type="image/x-icon" href="/images/GSWL.png">
+    <link rel="stylesheet" href="project.css" />
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type = "text/javascript" src="design.js"></script>
+</head>
+
+<body>
+    <div class="hero1">
+    <nav>
+        <img src="images/GSWL.png" class="llogo">
+        <ul>
+            <li><a href="cover.html">Home</a></li>
+            <li><a href="#">Formation</a></li>
+            <li><a href="about.html">About</a></li>
+		
+            
+        </ul>
+    </nav>
+
+
+</div>
+    
+	<div>
+		<img src="images/warriors.jpg.png" class="centerimg">
+		<div class="pos" style="margin: -470px 1350px;">c</div>
+		<div class="pos" style="margin: -220px 1220px">pf</div>				
+		<div class="pos" style="margin: -680px 1220px">sf</div>		
+		<div class="pos" style="margin: -330px 970px">pg</div>
+		<div class="pos" style="margin: -630px 970px">sg</div>
+		
+		
+		<div class="selector" style = "position:absolute; left:840px; top:730px;">
+			<div id="selectField"> 
+				<p id="selectText" style="color: blue ">Select PG</p>
+				<img src ="images/arrow.png" id="arrowIcon">
+								 
+			</div>
+					
+			<ul id="list" class="hide">
+				<li class ="options">
+					<p><img src ="images/curry pg.png">Stephen Curry</p>
+				</li>
+				<li class ="options">
+					<img src ="images/rollins pg.png">
+						<p>Ryan Rollins</p>
+				</li>
+								
+			</ul>
+			<script>
+				var selectField = document.getElementById("selectField");
+				var selectText = document.getElementById("selectText");
+				var options = document.getElementsByClassName("options");
+				var list = document.getElementById("list");
+				var arrowIcon = document.getElementById("arrowIcon");
+			
+				selectField.onclick = function(){
+					list.classList.toggle("hide");
+					arrowIcon.classList.toggle("rotate");
+			
+				}
+			
+			
+				for(option of options){
+					option.onclick = function(){
+						selectText.innerHTML = this.textContent;
+						list.classList.toggle("hide");
+						arrowIcon.classList.toggle("rotate");
+					}
+				}
+				
+			</script>
+			
+		</div>
+		
+		<div class="selector1" style = "position:absolute; left:840px; top:430px;">
+			<div id="selectField1"> 
+				<p id="selectText1" style="color: blue ">Select SG</p>
+				<img src ="images/arrow1.png" id="arrowIcon1">
+								 
+			</div>
+					
+			<ul id="list1" class="hide1">
+				<li class ="options1">
+					<p><img src ="images/klay sg.png">Klay thompson</p>
+				</li>
+				<li class ="options1">
+					<img src ="images/poole sg.png">
+						<p>Jordan Poole</p>
+				</li>
+								
+			</ul>
+			<script>
+				var selectField1 = document.getElementById("selectField1");
+				var selectText1 = document.getElementById("selectText1");
+				var options1 = document.getElementsByClassName("options1");
+				var list1 = document.getElementById("list1");
+				var arrowIcon1 = document.getElementById("arrowIcon1");
+			
+				selectField1.onclick = function(){
+					list1.classList.toggle("hide1");
+					arrowIcon1.classList.toggle("rotate1");
+			
+				}
+			
+			
+				for(option1 of options1){
+					option1.onclick = function(){
+						selectText1.innerHTML = this.textContent;
+						list1.classList.toggle("hide1");
+						arrowIcon1.classList.toggle("rotate1");
+					}
+				}
+			</script>
+		</div>
+
+		<div class="selector2" style = "position:absolute; left:1270px; top:240px;">
+			<div id="selectField2"> 
+				<p id="selectText2" style="color: blue ">Select SF</p>
+				<img src ="images/arrow2.png" id="arrowIcon2">
+								 
+			</div>
+					
+			<ul id="list2" class="hide2">
+				<li class ="options2">
+					<p><img src ="images/baldwin sf.png">Patrick Baldwin</p>
+				</li>
+				<li class ="options2">
+					<img src ="images/wiggin sf.png">
+						<p>Andrew Wiggin</p>
+				</li>
+								
+			</ul>
+			<script>
+				var selectField2 = document.getElementById("selectField2");
+				var selectText2 = document.getElementById("selectText2");
+				var options2 = document.getElementsByClassName("options2");
+				var list2 = document.getElementById("list2");
+				var arrowIcon2 = document.getElementById("arrowIcon2");
+			
+				selectField2.onclick = function(){
+					list2.classList.toggle("hide2");
+					arrowIcon2.classList.toggle("rotate2");
+			
+				}
+			
+			
+				for(option2 of options2){
+					option2.onclick = function(){
+						selectText2.innerHTML = this.textContent;
+						list2.classList.toggle("hide2");
+						arrowIcon2.classList.toggle("rotate2");
+					}
+				}
+			</script>
+		</div>
+
+
+		<div class="selector3" style = "position:absolute; left:1270px; top:850px;">
+			<div id="selectField3"> 
+				<p id="selectText3" style="color: blue ">Select PF</p>
+				<img src ="images/arrow3.png" id="arrowIcon3">
+								 
+			</div>
+					
+			<ul id="list3" class="hide3">
+				<li class ="options3">
+					<p><img src ="images/green pf.png">Daymond Green</p>
+				</li>
+				<li class ="options3">
+					<img src ="images/kuminga pf.png">
+						<p>Jonathan Kuminga</p>
+				</li>
+								
+			</ul>
+			<script>
+				var selectField3 = document.getElementById("selectField3");
+				var selectText3 = document.getElementById("selectText3");
+				var options3 = document.getElementsByClassName("options3");
+				var list3 = document.getElementById("list3");
+				var arrowIcon3 = document.getElementById("arrowIcon3");
+			
+				selectField3.onclick = function(){
+					list3.classList.toggle("hide3");
+					arrowIcon3.classList.toggle("rotate3");
+			
+				}
+			
+			
+				for(option3 of options3){
+					option3.onclick = function(){
+						selectText3.innerHTML = this.textContent;
+						list3.classList.toggle("hide3");
+						arrowIcon3.classList.toggle("rotate3");
+					}
+				}
+			</script>
+		</div>
+
+
+		<div class="selector4" style = "position:absolute; left:1270px; top:580px;">
+			<div id="selectField4"> 
+				<p id="selectText4" style="color: blue ">Select C</p>
+				<img src ="images/arrow4.png" id="arrowIcon4">
+								 
+			</div>
+					
+			<ul id="list4" class="hide4">
+				<li class ="options4">
+					<p><img src ="images/looney c.png">Kevon Looney</p>
+				</li>
+				<li class ="options4">
+					<img src ="images/wiseman c.png">
+						<p>James Wiseman</p>
+				</li>
+								
+			</ul>
+			<script>
+				var selectField4 = document.getElementById("selectField4");
+				var selectText4 = document.getElementById("selectText4");
+				var options4 = document.getElementsByClassName("options4");
+				var list4 = document.getElementById("list4");
+				var arrowIcon4 = document.getElementById("arrowIcon4");
+			
+				selectField4.onclick = function(){
+					list4.classList.toggle("hide4");
+					arrowIcon4.classList.toggle("rotate4");
+			
+				}
+			
+			
+				for(option4 of options4){
+					option4.onclick = function(){
+						selectText4.innerHTML = this.textContent;
+						list4.classList.toggle("hide4");
+						arrowIcon4.classList.toggle("rotate4");
+					}
+				}
+			</script>
+		</div>
+		<p>
+			
+			<button class="button" onclick="runStats()"><span>Click Here To Check Last Season Points Per Game For Each Player</span></button>
+			<script src="design.js"></script>
+		</p>
+		
+	</div>	
+
+</body>
+
+</html>
+
+
+

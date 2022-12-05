@@ -1,0 +1,412 @@
+body {
+	margin: 0 auto;
+	background: black;
+	font-family: "Open Sans", sans-serif;
+	cursor: default;
+}
+
+header {
+
+	color: rgb(211, 221, 20);
+	border-bottom: 1px solid #eee;
+	font-size: 32px;
+	font-family: "Copperplate Gothic Bold";
+	padding: 20px 70px;
+}
+.center{
+	text-align: center;
+	
+}
+.centerimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.pos {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background: #0303f2;
+	color: #d4de11;
+	text-align: center;
+	line-height: 40px;
+	font-size: 24px;
+	font-weight: 100;
+	transition: .3s linear all;
+	z-index: 1;
+}
+
+.pos:hover {
+	color: #BDC3C7;
+	background: #34495e;
+}
+
+.background-image{
+    background-image:url(../ds/images/warriors.jpg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-self: center;
+    height: 100vh;
+    justify-content: center;
+	left: -200px;
+}
+
+.selector{
+    width: 300px;
+}
+
+#selectField{
+    width: 100%;
+ 	padding: 15px 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.7);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#selectField img{
+    width: 10px;
+    transition: transform 0.5s;
+
+}
+#list{
+    width: 88%;
+    background: rgba(255,255,255,0.7);
+    border-radius: 6px;
+    overflow: hidden;
+
+}
+.options{
+    width: 100%;
+    padding: 5px 70px 5px 70px; 
+    list-style: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+}
+.options img{
+    width: 70px;
+    position: absolute;
+    top: -5px;
+    left: -10px;
+
+
+}
+.options:hover{
+    background: rgba(255,255,255,0.7);
+
+}
+.hide{
+    visibility: hidden;
+}
+.rotate{
+    transform: rotate(180deg);
+}
+
+.selector1{
+    width: 300px;
+}
+
+#selectField1{
+    width: 100%;
+ 	padding: 15px 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.7);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#selectField1 img{
+    width: 10px;
+    transition: transform 0.5s;
+
+}
+#list1{
+    width: 88%;
+    background: rgba(255,255,255,0.7);
+    border-radius: 6px;
+    overflow: hidden;
+
+}
+.options1{
+    width: 100%;
+    padding: 5px 70px 5px 70px; 
+    list-style: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+}
+.options1 img{
+    width: 70px;
+    position: absolute;
+    top: -5px;
+    left: -10px;
+
+
+}
+.options1:hover{
+    background: rgba(255,255,255,0.7);
+
+}
+.hide1{
+    visibility: hidden;
+}
+.rotate1{
+    transform: rotate(180deg);
+}
+.selector2{
+    width: 300px;
+}
+
+#selectField2{
+    width: 100%;
+ 	padding: 15px 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.7);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#selectField2 img{
+    width: 10px;
+    transition: transform 0.5s;
+
+}
+#list2{
+    width: 88%;
+    background: rgba(255,255,255,0.7);
+    border-radius: 6px;
+    overflow: hidden;
+
+}
+.options2{
+    width: 100%;
+    padding: 5px 70px 5px 70px; 
+    list-style: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+}
+.options2 img{
+    width: 70px;
+    position: absolute;
+    top: -5px;
+    left: -10px;
+
+
+}
+.options2:hover{
+    background: rgba(255,255,255,0.7);
+
+}
+.hide2{
+    visibility: hidden;
+}
+.rotate2{
+    transform: rotate(180deg);
+}
+.selector3{
+    width: 300px;
+}
+
+#selectField3{
+    width: 100%;
+ 	padding: 15px 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.7);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#selectField3 img{
+    width: 10px;
+    transition: transform 0.5s;
+
+}
+#list3{
+    width: 88%;
+    background: rgba(255,255,255,0.7);
+    border-radius: 6px;
+    overflow: hidden;
+
+}
+.options3{
+    width: 100%;
+    padding: 5px 70px 5px 70px; 
+    list-style: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+}
+.options3 img{
+    width: 70px;
+    position: absolute;
+    top: -5px;
+    left: -10px;
+
+
+}
+.options3:hover{
+    background: rgba(255,255,255,0.7);
+
+}
+.hide3{
+    visibility: hidden;
+}
+.rotate3{
+    transform: rotate(180deg);
+}
+.selector4{
+    width: 300px;
+}
+
+#selectField4{
+    width: 100%;
+ 	padding: 15px 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.7);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#selectField4 img{
+    width: 10px;
+    transition: transform 0.5s;
+
+}
+#list4{
+    width: 88%;
+    background: rgba(255,255,255,0.7);
+    border-radius: 6px;
+    overflow: hidden;
+
+}
+.options4{
+    width: 100%;
+    padding: 5px 70px 5px 70px; 
+    list-style: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+}
+.options4 img{
+    width: 70px;
+    position: absolute;
+    top: -5px;
+    left: -10px;
+
+
+}
+.options4:hover{
+    background: rgba(255,255,255,0.7);
+
+}
+.hide4{
+    visibility: hidden;
+}
+.rotate4{
+    transform: rotate(180deg);
+}
+
+nav{
+    background: black;
+    width: 80%;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.llogo{
+    width: 120px;
+
+}
+.user-pic{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+
+}
+nav ul{
+    width: 100%;
+    text-align: right;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.button {
+    border-radius: 4px;
+	background-color: rgba(254,196,34,255);
+	border: none;
+	color: blue;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 1690px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+				  
+    }
+				
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+	}
+				
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+    top: 0;
+	right: -20px;
+	transition: 0.5s;
+	}
+				
+.button:hover span {
+	padding-right: 25px;
+	}
+				
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+	}
