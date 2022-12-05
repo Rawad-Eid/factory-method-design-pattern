@@ -3,6 +3,9 @@ Custom Roster Designer
 Project Purpose:
 The primary objective of this project was to delve into, and elaborate upon the "factory design pattern" by implementing it within an executable code that could potentially prove of use in realistic scenarios. To illustrate, in this implementation of the assigned design pattern, coaches are provided with a convininet and efficient manner to scout players' performance and history within a variety of sports, and conduct any needed adjustments given a player's background. For the sake of demonstration, the following code offers a quite simplistic demo of the aforementioned implementation, utilizing the Golden State Warriors. 
 
+How to Run:
+Simply copy paste the URL of the "cover.html" onto a browser. 
+
 
 Contributors:
 1) Rawad Eid
